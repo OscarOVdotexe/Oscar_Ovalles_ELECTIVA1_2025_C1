@@ -1,0 +1,8 @@
+git-fetch - Descargar objetos y refs de otro repositorio
+
+git fetch (lleva el repositorio remoto al repositorio local)
+
+git fetch [<options>] [<repository> [<refspec>…​]]
+git fetch [<options>] <group>
+git fetch --multiple [<options>] [(<repository> | <group>)…​]
+git fetch --all [<options>]

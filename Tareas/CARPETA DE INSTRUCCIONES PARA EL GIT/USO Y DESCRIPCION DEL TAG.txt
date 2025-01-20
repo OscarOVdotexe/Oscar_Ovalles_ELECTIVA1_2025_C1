@@ -1,0 +1,17 @@
+git-tag - Crear, enumerar, eliminar o verificar un objeto de etiqueta firmado con GPG
+
+Agregar una referencia de etiqueta en refs/tags/, a menos que -d/-l/-v se da para eliminar, enumerar o verificar etiquetas.
+
+A menos -f se da, la etiqueta nombrada aún no debe existir.
+
+Si uno de -a, -s, o -u <key-id> se pasa, el comando crea un etiqueta objeto, y requiere un mensaje de etiqueta. A menos -m <msg> o -F <file> se da, se inicia un editor para que el usuario escriba en el mensaje de etiqueta.
+
+Si -m <msg> o -F <file> o --trailer <token>[=<value>] se da y -a, -s, y -u <key-id> están ausentes, -a está implícito.
+
+De lo contrario, una referencia de etiqueta que apunta directamente al objeto dado (es decir, se crea una etiqueta ligera).
+
+** Comentarios para el commit**
+git tag nombre de tag (tag del commit actual)
+git show nombre del tag(proporciona informacion del commit)
+git tag -a nombre de tag -m "comentario"(crea un tag con comentario)
+git tag -d nombre de tag (borrar tag)

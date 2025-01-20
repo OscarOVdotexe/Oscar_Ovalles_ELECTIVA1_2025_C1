@@ -1,0 +1,6 @@
+
+git-push - Actualizar las referencias remotas junto con los objetos asociados
+
+Actualiza las referencias remotas usando las referencias locales, mientras envía objetos necesario para completar los refs dados.
+
+git push -u  "nombre repositorio" master(rama principal) (local a remoto)

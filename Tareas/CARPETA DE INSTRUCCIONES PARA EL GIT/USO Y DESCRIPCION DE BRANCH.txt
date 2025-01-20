@@ -1,0 +1,49 @@
+git-branch - Listar, crear o eliminar ramas
+
+Si --list se da, o si no hay argumentos de no opción, existentes se enumeran las ramas; 
+la rama actual se resaltará en verde y marcado con un asterisco. Cualquier sucursal registrada en árboles de trabajo vinculados lo hará ser resaltado en cian y marcado con un signo más. Opción -r causa el ramas de seguimiento remoto que se enumerarán, y opción -a muestra sucursales locales y remotas.
+
+Si a <pattern> se da, se usa como comodín de shell para restringir la salida ramas coincidentes. 
+Si se dan múltiples patrones, se muestra una rama si coincide con cualquiera de los patrones.
+
+Tenga en cuenta que al proporcionar un <pattern>, debes usar --list; de lo contrario, el comando 
+puede ser interpretado como creación de ramas.
+
+Con --contains, muestra solo las ramas que contienen el commit nombrado (en otras palabras, las ramas cuya punta se compromete son descendientes de la commit nombrado), 
+--no-contains lo invierte. Con --merged, solo ramas se fusionaron en la confirmación nombrada (es decir, las ramas cuyas confirmaciones de punta son accesible desde el commit nombrado) se enumerará. Con --no-merged solo se enumerarán las sucursales no fusionadas en la confirmación nombrada. Si el <commit> falta argumento a que no cumple HEAD (es decir, la punta de la corriente rama).
+
+La segunda forma de los comandantes crea un nuevo jefe de rama llamado <branchname> lo que apunta a la corriente HEAD, o <start-point> si se administra. 
+Como un caso especial, para <start-point>, puede usar "A...B" como atajo para la base de fusión de A y B si hay exactamente una base de fusión. Tú puede dejar fuera como máximo uno de A y B, en cuyo caso no cumple con HEAD.
+
+Tenga en cuenta que esto creará la nueva rama, pero no cambiará la árbol de trabajo; 
+use "interruptor de giro <newbranch>" para cambiar al nueva rama.
+
+Cuando se inicia una sucursal local desde una sucursal de seguimiento remoto, Git configura el rama (específicamente el branch.<name>.remote y branch.<name>.merge entradas de configuración) 
+para que tirón de git se fusionará adecuadamente de la rama de seguimiento remoto. Este comportamiento puede ser cambiado a través de lo global branch.autoSetupMerge bandera de configuración. 
+Esa configuración puede ser anulado usando el --track y --no-track opciones, y cambiado más tarde usando git branch --set-upstream-to.
+
+Con un -m o -M opción, <oldbranch> pasará a llamarse <newbranch>. Si <oldbranch> tenía un reflog correspondiente, se renombra para que coincida <newbranch>, 
+y se crea una entrada de reflog para recordar la sucursal renombrar. Si <newbranch> existe, -M debe usarse para forzar el cambio de nombre para suceder.
+
+El -c y -C las opciones tienen exactamente la misma semántica que -m y -M, excepto que en lugar de renombrar la rama, se copiará a un nuevo nombre,
+ junto con su configuración y reflog.
+
+Con un -d o -D opción, <branchname> será eliminado. Puedes especifique más de una rama para la eliminación. Si la sucursal actualmente tiene un reblogueo, 
+entonces el reflog también se eliminará.
+
+Usar -r junto con -d para eliminar ramas de seguimiento remoto. Tenga en cuenta que solo tiene sentido eliminar las ramas de seguimiento remoto
+ si ya no existen en el repositorio remoto o si git buscar fue configurado para no buscar ellos de nuevo. Ver también el poda subcomando de git-remoto[1] para un 
+forma de limpiar todas las ramas de seguimiento remoto obsoletas.
+
+**BRANCHES**
+git branch (ver las ramas)
+git branch <nombre de rama>(crear rama)
+git branch -m <nombre rama> <cambio de nombre de rama>
+git checkout <nombrederama> (cambia de rama)
+git branch -d probando 1 (delete rama)
+
+** Comparacion de ramas**
+git diff <primera rama> <segunda rama>
+
+**UNION DE RAMAS**
+git merch <rama principal> , <rama a combinar>.

@@ -1,0 +1,38 @@
+**CREACION DEL REPOSITORIO**
+
+cd archivo (direccion del repositorio local)
+git remote add <nameofrepository> "URL REPOSITORIO" (crea el repositorio y lo 
+vincula con el repositorio local) 
+add "name"(archivo temporal, sin subir a github)
+git status (to know the status of the file)
+
+git commit -m "descripcion del archivo" (crea un espacio local)
+git log (permite ver todos los commit locales)
+
+**PUBLICACION DE REPOSITORIO LOCAL AL REPOSITORIO REMOTO**
+
+git push -u  "nombre repositorio" master(rama principal) (local a remoto)
+
+** PUBLICACION DE REPOSITORIO REMOTO AL LOCAL
+git clone URL (descarga el repositorio.)
+git pull nombre repositorio <rama> (lleva el repositorio remoto a tu espacio de trabajo)
+git fetch (lleva el repositorio remoto al repositorio local)
+
+**BRANCHES**
+git branch (ver las ramas)
+git branch <nombre de rama>(crear rama)
+git branch -m <nombre rama> <cambio de nombre de rama>
+git checkout <nombrederama> (cambia de rama)
+git branch -d probando 1 (delete rama)
+
+** Comparacion de ramas**
+git diff <primera rama> <segunda rama>
+
+**UNION DE RAMAS**
+git merch <rama principal> , <rama a combinar>.
+
+** Comentarios para el commit**
+git tag nombre de tag (tag del commit actual)
+git show nombre del tag(proporciona informacion del commit)
+git tag -a nombre de tag -m "comentario"(crea un tag con comentario)
+git tag -d nombre de tag (borrar tag)

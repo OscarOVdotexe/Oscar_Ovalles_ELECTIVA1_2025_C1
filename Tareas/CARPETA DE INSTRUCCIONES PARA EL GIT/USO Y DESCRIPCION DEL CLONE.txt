@@ -1,0 +1,10 @@
+Clona un repositorio en un directorio recién creado, crea ramas de seguimiento remoto para cada rama en el 
+repositorio clonado (visible usando git branch --remotes), y crea y comprueba un rama inicial que se bifurca de los repositorios clonados sucursal actualmente activa.
+
+Después del clon, una llanura git fetch sin argumentos se actualizará todas las ramas de seguimiento remoto, 
+y un git pull sin los argumentos fusionarán además la rama maestra remota en el rama maestra actual, si la hay (esto no es cierto cuando --single-branch se da; ver más abajo).
+
+Esta configuración predeterminada se logra creando referencias a la rama remota 
+se dirige debajo refs/remotes/origin y inicializando remote.origin.url y remote.origin.fetch variables de configuración.
+
+git clone URL (descarga el repositorio.)

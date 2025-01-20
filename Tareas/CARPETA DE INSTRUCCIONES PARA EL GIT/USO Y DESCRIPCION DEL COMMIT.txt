@@ -1,0 +1,6 @@
+Cree una nueva confirmación que contenga el contenido actual del índice y el mensaje de registro dado que describe los cambios. El nuevo 
+compromiso es un hijo directo de HEAD, generalmente la punta de la rama actual, y el la rama se actualiza para 
+señalarla (a menos que no se asocie ninguna rama el árbol de trabajo, en cuyo caso HEAD está "separado").
+
+git commit -m "descripcion del archivo" (crea un espacio local)
+git log (permite ver todos los commit locales)

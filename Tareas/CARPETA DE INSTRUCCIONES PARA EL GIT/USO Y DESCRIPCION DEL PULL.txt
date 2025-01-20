@@ -1,0 +1,6 @@
+Incorpora cambios de un repositorio remoto a la rama actual. Si la rama actual está detrás del control remoto, por defecto 
+lo hará avance rápido la rama actual para que coincida con el control remoto. 
+
+git-pull: busque e integre con otro repositorio o una sucursal local
+
+git pull nombre repositorio <rama> (lleva el repositorio remoto a tu espacio de trabajo)
