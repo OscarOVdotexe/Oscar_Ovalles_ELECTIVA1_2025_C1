@@ -1,5 +1,8 @@
 **CREACION DEL REPOSITORIO**
 
+git init comienza el repositorio
+git config user.name"name"
+git config user.email"email"
 cd archivo (direccion del repositorio local)
 git remote add <nameofrepository> "URL REPOSITORIO" (crea el repositorio y lo 
 vincula con el repositorio local) 
