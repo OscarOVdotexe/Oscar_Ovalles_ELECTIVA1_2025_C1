@@ -5,656 +5,6 @@
 	(uuid "cf6f8efc-e028-4f56-afc2-5889f6a21fbb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_A"
-				(at -5.08 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB Type A connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector USB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "USB*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USB_A_0_1"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 4.826)
-					(end -4.318 5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 4.572)
-					(end -4.572 5.842)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_A_1_1"
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:USB_B"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_B"
-				(at -5.08 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB Type B connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector USB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "USB*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USB_B_0_1"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 4.318) (xy -2.286 4.318) (xy -2.286 5.715) (xy -2.667 6.096) (xy -3.683 6.096) (xy -4.064 5.715)
-						(xy -4.064 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 5.588)
-					(end -2.54 4.572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_B_1_1"
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:0805CG8R0C500NT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1635,6 +985,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA:AF90°WJDG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AF 90° WJDG"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:USB-A-TH_AF-WJDG"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-AF-900-WJDG_C456018.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C456018"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AF90°WJDG_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "SHLD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:B0503S-1WR3_C5444000"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1789,11 +1300,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:SMBJ6.8A"
+		(symbol "EasyEDA:TVSS5VCES-02GP-J_C7473318"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
+			(property "Reference" "U"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1801,7 +1312,7 @@
 					)
 				)
 			)
-			(property "Value" "SMBJ6.8A"
+			(property "Value" "TVSS5VCES-02GP-J_C7473318"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1809,7 +1320,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SMB_L4.6-W3.6-LS5.3-RD"
+			(property "Footprint" "EasyEDA:SOD-523_L1.2-W0.8-LS1.6-BI"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1818,8 +1329,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Bourne-Semicon-Shenzhen-SMBJ6-8A_C152090.html"
-				(at 0 -10.16 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1836,8 +1347,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C152090"
-				(at 0 -12.7 0)
+			(property "LCSC Part" "C7473318"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1845,10 +1356,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMBJ6.8A_0_1"
+			(symbol "TVSS5VCES-02GP-J_C7473318_0_1"
 				(polyline
 					(pts
-						(xy -2.29 2.29) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.25 -2.29)
+						(xy -2.54 1.52) (xy 0 0) (xy -2.54 -1.52) (xy -2.54 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.02 -2.29) (xy 0 -1.27) (xy 0 1.27) (xy -1.02 2.29)
 					)
 					(stroke
 						(width 0)
@@ -1860,7 +1383,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
+						(xy 2.54 -1.52) (xy 0 0) (xy 2.54 1.52) (xy 2.54 -1.52)
 					)
 					(stroke
 						(width 0)
@@ -1872,8 +1395,8 @@
 				)
 				(pin unspecified line
 					(at -5.08 0 0)
-					(length 3.81)
-					(name "C"
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1890,8 +1413,8 @@
 				)
 				(pin unspecified line
 					(at 5.08 0 180)
-					(length 3.81)
-					(name "A"
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1899,6 +1422,185 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:USB-B-Female-90"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB-B-Female-90"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:USB-B_TH_USB-B-FEMALE-90"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_USB-BFemale90Degree-of-iron-feet-White-plastic-Not-high-temperature_C46392.html"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C46392"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB-B-Female-90_0_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 12.7 270)
+					(length 5.08)
+					(name "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -10.16 90)
+					(length 5.08)
+					(name "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2881,22 +2583,10 @@
 		(uuid "008d2042-581f-4aea-a1ad-cff0f512c0ed")
 	)
 	(junction
-		(at 92.71 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02f6cb28-42bc-42b0-97ad-bd2d0fe821dc")
-	)
-	(junction
 		(at 146.05 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04f2287a-0285-4c2c-9fba-8e49a3bc09f9")
-	)
-	(junction
-		(at 95.25 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14b0910d-8cdc-4a2d-b510-d4f0492c5930")
 	)
 	(junction
 		(at 199.39 135.89)
@@ -2915,12 +2605,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ffe1a09-7bc1-4b97-817e-5320acf3c89d")
-	)
-	(junction
-		(at 96.52 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41630d5c-6d69-422d-946e-f96f6231e207")
 	)
 	(junction
 		(at 187.96 59.69)
@@ -2959,12 +2643,6 @@
 		(uuid "5844133f-05c5-461f-9e2e-346f1f14b50a")
 	)
 	(junction
-		(at 105.41 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bdc799d-eb35-4c3c-9782-2134a7c07e35")
-	)
-	(junction
 		(at 151.13 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2975,6 +2653,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dfd4558-3d11-4eb7-8db8-75b5f0796a95")
+	)
+	(junction
+		(at 105.41 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e00e91b-b6ad-48b6-9b22-c985856e2af0")
 	)
 	(junction
 		(at 198.12 71.12)
@@ -3007,12 +2691,6 @@
 		(uuid "8cbed342-8ffc-4cd5-a984-47e458fe4956")
 	)
 	(junction
-		(at 101.6 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b4dae5b-ca14-4c19-817b-b1dabb66ff57")
-	)
-	(junction
 		(at 154.94 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3031,22 +2709,16 @@
 		(uuid "a5c27a85-ceb0-46fb-9c70-cb739560b938")
 	)
 	(junction
-		(at 83.82 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d18545d1-1c26-4889-8c83-9a3067e09cee")
-	)
-	(junction
 		(at 210.82 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d53e1e53-fcec-4568-a842-81f1dc901781")
 	)
 	(junction
-		(at 86.36 114.3)
+		(at 83.82 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f26790b2-5dee-4c05-bc28-bab89fbe3e45")
+		(uuid "e23abb4b-4214-4dbe-b0a6-1a7c331d467c")
 	)
 	(wire
 		(pts
@@ -3087,16 +2759,6 @@
 			(type default)
 		)
 		(uuid "04c2ecef-93a4-4453-982e-bd4ac775af6c")
-	)
-	(wire
-		(pts
-			(xy 91.44 66.04) (xy 101.6 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "057155af-c421-4d4f-9f0d-3b74890c3db3")
 	)
 	(wire
 		(pts
@@ -3160,26 +2822,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 114.3) (xy 97.79 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f122f91-8ba2-4d66-a441-855799c1378d")
-	)
-	(wire
-		(pts
-			(xy 96.52 121.92) (xy 97.79 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f750459-398d-4ed7-9318-a5728a3c44ad")
-	)
-	(wire
-		(pts
 			(xy 215.9 101.6) (xy 210.82 101.6)
 		)
 		(stroke
@@ -3220,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 101.6) (xy 105.41 104.14)
+			(xy 105.41 101.6) (xy 105.41 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3340,16 +2982,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 58.42) (xy 91.44 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28a1a0b9-e3a7-4b51-90b0-46f7d5ea24f1")
-	)
-	(wire
-		(pts
 			(xy 207.01 64.77) (xy 205.74 64.77)
 		)
 		(stroke
@@ -3380,16 +3012,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 106.68) (xy 107.95 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ee9266-03ee-4293-afd4-5ffa6c2e341f")
-	)
-	(wire
-		(pts
 			(xy 194.31 118.11) (xy 198.12 118.11)
 		)
 		(stroke
@@ -3397,16 +3019,6 @@
 			(type default)
 		)
 		(uuid "31a5a70b-aa25-405c-b05c-889b5d9870d9")
-	)
-	(wire
-		(pts
-			(xy 83.82 76.2) (xy 83.82 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31fc3748-c2c6-4f4d-8040-56b40c62acb0")
 	)
 	(wire
 		(pts
@@ -3440,13 +3052,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.66) (xy 81.28 76.2)
+			(xy 83.82 63.5) (xy 86.36 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41061265-27d8-4faa-a8e6-dfbffafd53a8")
+		(uuid "43e77750-5973-493d-a7ef-d05bea4a9784")
 	)
 	(wire
 		(pts
@@ -3467,6 +3079,16 @@
 			(type default)
 		)
 		(uuid "4566c9ac-214f-4af1-a2bc-f06ffbb221f8")
+	)
+	(wire
+		(pts
+			(xy 106.68 111.76) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f21301-6407-46ea-a707-ebbe3746d67f")
 	)
 	(wire
 		(pts
@@ -3520,6 +3142,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 116.84) (xy 106.68 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5284151f-a30a-4aee-bfaf-198016d9635f")
+	)
+	(wire
+		(pts
 			(xy 101.6 77.47) (xy 101.6 80.01)
 		)
 		(stroke
@@ -3550,6 +3182,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 76.2) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0a8bfc-5acc-40dd-9d7b-194d94fdae1f")
+	)
+	(wire
+		(pts
 			(xy 194.31 120.65) (xy 199.39 120.65)
 		)
 		(stroke
@@ -3570,6 +3212,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62da31e0-67c8-446f-ac1f-80dd0a5b14a1")
+	)
+	(wire
+		(pts
 			(xy 160.02 100.33) (xy 154.94 100.33)
 		)
 		(stroke
@@ -3587,6 +3239,16 @@
 			(type default)
 		)
 		(uuid "670e5208-3af0-4953-9e1f-743cd747ebb7")
+	)
+	(wire
+		(pts
+			(xy 83.82 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687cf9f9-1fe3-4cf2-b5e0-56b1b69293d6")
 	)
 	(wire
 		(pts
@@ -3620,16 +3282,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 83.82 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba77835-e156-4c2a-9769-15a35ca7a66c")
-	)
-	(wire
-		(pts
 			(xy 185.42 59.69) (xy 187.96 59.69)
 		)
 		(stroke
@@ -3637,16 +3289,6 @@
 			(type default)
 		)
 		(uuid "6bcacb55-8b86-4111-aca6-4d39c3868fc7")
-	)
-	(wire
-		(pts
-			(xy 107.95 104.14) (xy 105.41 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7fab12-eefe-4918-b6d3-50df4d81a084")
 	)
 	(wire
 		(pts
@@ -3687,6 +3329,16 @@
 			(type default)
 		)
 		(uuid "75342f21-f05d-4d6a-ace5-1ef1ae194a9b")
+	)
+	(wire
+		(pts
+			(xy 83.82 54.61) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757c0af0-152c-4b9f-b2d2-72badf878174")
 	)
 	(wire
 		(pts
@@ -3760,16 +3412,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 128.27) (xy 96.52 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad6dee9-33ea-4054-811c-53f9356cfc2d")
-	)
-	(wire
-		(pts
 			(xy 165.1 135.89) (xy 168.91 135.89)
 		)
 		(stroke
@@ -3830,16 +3472,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 95.25 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac32d60-dc93-4953-972d-c2326576baa3")
-	)
-	(wire
-		(pts
 			(xy 140.97 59.69) (xy 140.97 55.88)
 		)
 		(stroke
@@ -3867,6 +3499,16 @@
 			(type default)
 		)
 		(uuid "a31631f8-49aa-4bb3-9439-d59ed0872c9a")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 83.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b3c7f5-016c-4f02-8bbf-2e441a1672bd")
 	)
 	(wire
 		(pts
@@ -3917,16 +3559,6 @@
 			(type default)
 		)
 		(uuid "ad91e632-4b76-41b1-9093-185c14b8cc6b")
-	)
-	(wire
-		(pts
-			(xy 92.71 116.84) (xy 97.79 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adbf053c-ee3e-4b48-a06a-8d326bc1322b")
 	)
 	(wire
 		(pts
@@ -4020,6 +3652,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 116.84) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b981da1d-04b0-4534-8997-6938c266d3e2")
+	)
+	(wire
+		(pts
 			(xy 149.86 113.03) (xy 160.02 113.03)
 		)
 		(stroke
@@ -4070,6 +3712,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 119.38) (xy 106.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03c0a94-6fe9-48cb-9bc7-6843a8ea4257")
+	)
+	(wire
+		(pts
 			(xy 86.36 114.3) (xy 86.36 118.11)
 		)
 		(stroke
@@ -4097,16 +3749,6 @@
 			(type default)
 		)
 		(uuid "c2f2589d-14be-431f-ab18-e6b2947c4b87")
-	)
-	(wire
-		(pts
-			(xy 105.41 104.14) (xy 105.41 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8718cd4-d711-4282-bda2-e321bec5c0d9")
 	)
 	(wire
 		(pts
@@ -4147,6 +3789,16 @@
 			(type default)
 		)
 		(uuid "d0602298-c696-4fc7-b7b9-416c72492c98")
+	)
+	(wire
+		(pts
+			(xy 105.41 106.68) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1dafd25-733c-4b47-91b1-60e8ecb54529")
 	)
 	(wire
 		(pts
@@ -4210,6 +3862,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 50.8) (xy 73.66 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d417a8-3a32-44a8-9397-e203770eb813")
+	)
+	(wire
+		(pts
 			(xy 161.29 133.35) (xy 168.91 133.35)
 		)
 		(stroke
@@ -4240,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 73.66) (xy 83.82 76.2)
+			(xy 83.82 68.58) (xy 83.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4257,6 +3919,16 @@
 			(type default)
 		)
 		(uuid "f6045080-e9a0-45d6-9d2e-16037851b724")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2b944a-9ef0-4848-8ea4-b57a0cc4aa4f")
 	)
 	(wire
 		(pts
@@ -4291,6 +3963,28 @@
 		(uuid "034b8ba3-c497-4c23-93cb-fa7c1326d6de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.3342 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIN-"
+		(shape input)
+		(at 86.36 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b6fe139-d972-4efb-b2cd-b33565b67f54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.1229 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,6 +4060,28 @@
 			)
 		)
 	)
+	(global_label "DIN2+"
+		(shape input)
+		(at 104.14 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32b04744-d1fb-46ba-b7b5-d04cc9d22c8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.1676 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "X1"
 		(shape input)
 		(at 187.96 55.88 90)
@@ -4410,9 +4126,9 @@
 			)
 		)
 	)
-	(global_label "DIN-"
+	(global_label "DIN+"
 		(shape input)
-		(at 102.87 66.04 0)
+		(at 86.36 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4420,14 +4136,36 @@
 			)
 			(justify left)
 		)
-		(uuid "55bc46a3-81b8-4c7d-98af-8228371510ea")
+		(uuid "7cf50833-0270-4b5f-b74b-2e5b45f25655")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.6329 66.04 0)
+			(at 94.1229 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIN2-"
+		(shape input)
+		(at 104.14 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8eeb38de-f52f-402e-9c44-377ab08704f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.1676 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4520,6 +4258,28 @@
 			)
 		)
 	)
+	(global_label "DIN-"
+		(shape input)
+		(at 102.87 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0158591-f9fb-423d-b9e6-1bf23becb8f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.6329 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIN2-"
 		(shape input)
 		(at 82.55 114.3 180)
@@ -4539,85 +4299,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:SMBJ6.8A")
-		(at 95.25 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0244bfc7-c53c-49d8-be82-17c6474d277b")
-		(property "Reference" "D1"
-			(at 93.98 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMBJ6.8A"
-			(at 91.44 70.6101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EasyEDA:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 87.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Bourne-Semicon-Shenzhen-SMBJ6-8A_C152090.html"
-			(at 85.09 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C152090"
-			(at 82.55 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "afa11cb2-3f30-423e-9266-1c2bdd58d27d")
-		)
-		(pin "1"
-			(uuid "670df01f-c986-4dfb-8376-a668c1a619d0")
-		)
-		(instances
-			(project ""
-				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
-					(reference "D1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5153,6 +4834,84 @@
 			(project "TAREA_2"
 				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:TVSS5VCES-02GP-J_C7473318")
+		(at 92.71 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2aea20df-29d5-4f1f-b034-bcb05b0b8775")
+		(property "Reference" "U6"
+			(at 94.742 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVSS5VCES-02GP-J_C7473318"
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOD-523_L1.2-W0.8-LS1.6-BI"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7473318"
+			(at 102.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9be056d7-ad92-44b8-b33b-2855edb1e02a")
+		)
+		(pin "1"
+			(uuid "d143a4f7-2183-42e2-a0ef-89784670dc08")
+		)
+		(instances
+			(project "TAREA_2"
+				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6207,7 +5966,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 96.52 128.27 180)
+		(at 106.68 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6216,7 +5975,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d4f528f-c162-400e-b72d-26cd92327d09")
 		(property "Reference" "#PWR013"
-			(at 96.52 124.46 0)
+			(at 106.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +5984,7 @@
 			)
 		)
 		(property "Value" "+5V2"
-			(at 96.52 133.35 0)
+			(at 106.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +5992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 128.27 0)
+			(at 106.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +6001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 128.27 0)
+			(at 106.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +6010,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 96.52 128.27 0)
+			(at 106.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,16 +6444,102 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:SMBJ6.8A")
-		(at 101.6 72.39 270)
+		(lib_id "EasyEDA:AF90°WJDG")
+		(at 116.84 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "62a90e88-7374-45dd-8186-a78f864cefa5")
-		(property "Reference" "D2"
-			(at 100.838 74.676 90)
+		(fields_autoplaced yes)
+		(uuid "66169477-f54f-4f12-980b-b73655ada9de")
+		(property "Reference" "USB1"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AF 90° WJDG"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:USB-A-TH_AF-WJDG"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-AF-900-WJDG_C456018.html"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C456018"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3c988bc6-f33f-4261-8d5d-888ed9c11ffa")
+		)
+		(pin "5"
+			(uuid "1e5da83e-7984-4a66-a366-c6c8527285c7")
+		)
+		(pin "1"
+			(uuid "88c6c3ea-139a-4e8d-9f84-5221e29dba61")
+		)
+		(pin "2"
+			(uuid "56543ac7-a85b-434c-b3df-7a18b46e5959")
+		)
+		(pin "3"
+			(uuid "dcb5e181-cfa5-458f-94c1-c813ffe24201")
+		)
+		(instances
+			(project ""
+				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
+					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:TVSS5VCES-02GP-J_C7473318")
+		(at 101.6 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d2d5d99-38b8-4682-84d0-bfeb0a393bb1")
+		(property "Reference" "U4"
+			(at 104.648 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,18 +6547,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ6.8A"
-			(at 97.79 70.6101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EasyEDA:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 93.98 72.39 0)
+		(property "Value" "TVSS5VCES-02GP-J_C7473318"
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,8 +6556,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Bourne-Semicon-Shenzhen-SMBJ6-8A_C152090.html"
-			(at 91.44 72.39 0)
+		(property "Footprint" "EasyEDA:SOD-523_L1.2-W0.8-LS1.6-BI"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,8 +6583,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C152090"
-			(at 88.9 72.39 0)
+		(property "LCSC Part" "C7473318"
+			(at 111.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,94 +6593,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ebd8e78b-eddc-4875-9640-6b3cf2cd408b")
+			(uuid "15acfdcf-82f3-4ca4-a316-d1836b60a574")
 		)
 		(pin "1"
-			(uuid "168a7300-4e57-4ce4-b8bd-e720ccbd5507")
+			(uuid "3c6d680d-5168-4fd7-ace4-1dd588a2246a")
 		)
 		(instances
 			(project "TAREA_2"
 				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:SMBJ6.8A")
-		(at 86.36 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65f12950-f9b4-46cc-b199-5efee4f9767c")
-		(property "Reference" "D4"
-			(at 85.598 125.476 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMBJ6.8A"
-			(at 82.55 121.4101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EasyEDA:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 78.74 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Bourne-Semicon-Shenzhen-SMBJ6-8A_C152090.html"
-			(at 76.2 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C152090"
-			(at 73.66 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8bd43e95-a553-42b5-9677-9198f29a8fa8")
-		)
-		(pin "1"
-			(uuid "0440af01-27e6-414e-b4ea-8bdf8feb43f6")
-		)
-		(instances
-			(project "TAREA_2"
-				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
-					(reference "D4")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6973,83 +6738,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_B")
-		(at 83.82 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b317576-6d94-4a97-9adc-d6cd68d5b928")
-		(property "Reference" "J1"
-			(at 83.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_B"
-			(at 83.82 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:USB-B_TH_USB-B-FEMALE-90"
-			(at 87.63 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Type B connector"
-			(at 83.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "9f2eae4d-dc6c-4448-b69a-ea41bef7b303")
-		)
-		(pin "1"
-			(uuid "b5efb775-935b-4c21-b385-580001bb217b")
-		)
-		(pin "4"
-			(uuid "15f33927-34f3-40e0-8941-d875d8e33daa")
-		)
-		(pin "2"
-			(uuid "a4ce998e-515c-4752-a6b4-5f166c873557")
-		)
-		(pin "3"
-			(uuid "4eb93d3f-bd08-40c9-8d0a-0c1a30436930")
-		)
-		(instances
-			(project ""
-				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:4.7uF25V3*5")
 		(at 151.13 63.5 90)
 		(unit 1)
@@ -7124,6 +6812,84 @@
 			(project "TAREA_2"
 				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:TVSS5VCES-02GP-J_C7473318")
+		(at 95.25 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81d6f758-7937-4109-a2a0-e6e209e44262")
+		(property "Reference" "U3"
+			(at 89.662 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVSS5VCES-02GP-J_C7473318"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOD-523_L1.2-W0.8-LS1.6-BI"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7473318"
+			(at 105.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "414f058e-6650-4b99-9d61-4210008e9349")
+		)
+		(pin "1"
+			(uuid "b4ca3596-11c6-468a-958b-b3e01d862db9")
+		)
+		(instances
+			(project ""
+				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7402,6 +7168,72 @@
 			(project "TAREA_2"
 				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 83.82 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ad8ce07-1331-4e29-9a15-f22f8419810a")
+		(property "Reference" "#PWR027"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V1"
+			(at 83.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f490becc-a458-4ec7-85b1-adf55395443e")
+		)
+		(instances
+			(project "TAREA_2"
+				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7715,85 +7547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:SMBJ6.8A")
-		(at 92.71 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aebf35d4-2233-4e6f-a1a5-ac93aa01fede")
-		(property "Reference" "D3"
-			(at 91.44 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMBJ6.8A"
-			(at 88.9 121.4101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EasyEDA:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 85.09 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Bourne-Semicon-Shenzhen-SMBJ6-8A_C152090.html"
-			(at 82.55 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C152090"
-			(at 80.01 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f2f29865-c492-4500-a5bc-1b3da9cbc4b8")
-		)
-		(pin "1"
-			(uuid "41303abf-ceb1-464c-ada8-a246dca971e8")
-		)
-		(instances
-			(project "TAREA_2"
-				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND2")
 		(at 199.39 140.97 0)
 		(unit 1)
@@ -7854,6 +7607,98 @@
 			(project ""
 				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:USB-B-Female-90")
+		(at 76.2 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b92a886e-1660-45c4-9546-6608ea804fd5")
+		(property "Reference" "CN1"
+			(at 68.58 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB-B-Female-90"
+			(at 68.58 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:USB-B_TH_USB-B-FEMALE-90"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_USB-BFemale90Degree-of-iron-feet-White-plastic-Not-high-temperature_C46392.html"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C46392"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710cc3b6-4e55-4660-b67b-2d5b6efbd16a")
+		)
+		(pin "2"
+			(uuid "631a8239-f956-41d7-a8a6-4e8cd6fb9e0f")
+		)
+		(pin "5"
+			(uuid "32fd6785-f475-4ba0-bd5d-b243a4d134ed")
+		)
+		(pin "4"
+			(uuid "0040616c-1571-4a83-9261-78c06872833a")
+		)
+		(pin "6"
+			(uuid "4794ca44-e2af-45a5-a85a-75ecbf4a6f4b")
+		)
+		(pin "3"
+			(uuid "8a87d194-605a-4ffc-aab3-8ee811bfb032")
+		)
+		(instances
+			(project ""
+				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -8050,6 +7895,149 @@
 			(project ""
 				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d70f3918-50e0-49e3-992b-13f455764108")
+		(property "Reference" "#PWR026"
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.152 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "688d9567-6f5e-49ad-a844-89a90a006cc5")
+		)
+		(instances
+			(project "TAREA_2"
+				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:TVSS5VCES-02GP-J_C7473318")
+		(at 86.36 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df3e6852-188d-4b02-949d-42180933bdc1")
+		(property "Reference" "U5"
+			(at 87.884 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVSS5VCES-02GP-J_C7473318"
+			(at 81.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOD-523_L1.2-W0.8-LS1.6-BI"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7473318"
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b352ad52-2341-49d0-864a-9441356b882b")
+		)
+		(pin "1"
+			(uuid "56f3440d-089a-4b2c-ab2e-a081f1e8cab1")
+		)
+		(instances
+			(project "TAREA_2"
+				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8441,85 +8429,6 @@
 			(project "TAREA_2"
 				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_A")
-		(at 105.41 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbe1ffbc-b544-4ce9-9a6a-8e45fc382aad")
-		(property "Reference" "J2"
-			(at 111.76 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_A"
-			(at 111.76 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:USB-A-TH_USB-M-41"
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Type A connector"
-			(at 105.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8c769b66-2dbb-4a46-bb02-6967e413d582")
-		)
-		(pin "2"
-			(uuid "4d65864c-268c-48ab-8b24-422334901a81")
-		)
-		(pin "1"
-			(uuid "ff61eaad-3454-4b1f-8ee4-947427d15990")
-		)
-		(pin "3"
-			(uuid "37f4e525-7dfe-465c-baef-b037c4cacd27")
-		)
-		(pin "5"
-			(uuid "56b801ff-7cbd-4235-a6b9-397981a593e4")
-		)
-		(instances
-			(project ""
-				(path "/cf6f8efc-e028-4f56-afc2-5889f6a21fbb"
-					(reference "J2")
 					(unit 1)
 				)
 			)

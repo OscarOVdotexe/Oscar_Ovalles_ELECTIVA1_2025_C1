@@ -1,4 +1,4 @@
-25144759046579803
+24995182496218402
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57253,19 +57253,33 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EasyEDA
-BGA-144_L15.0-W15.0-R12-C12-P1.27-BL
+C0603
 
 
 0
-144
-144
+2
+2
 EasyEDA
-HDR-TH_2P-P2.54-V-M
+C0805
 
 
 0
 2
 2
+EasyEDA
+CAP-TH_BD4.0-P1.50-D0.8-FD
+
+
+0
+2
+2
+EasyEDA
+OSC-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
 EasyEDA
 PWRM-TH_B0503S-1WR2
 
@@ -57274,14 +57288,21 @@ PWRM-TH_B0503S-1WR2
 4
 4
 EasyEDA
-SOD-123FL_L2.7-W1.8-LS3.8-RD
+SIP-4_L11.7-W6.0-P2.54_B0505S-1W
+
+
+0
+4
+4
+EasyEDA
+SMB_L4.6-W3.6-LS5.3-RD
 
 
 0
 2
 2
 EasyEDA
-SOD-323_L1.7-W1.3-LS2.5-BI
+SOD-523_L1.2-W0.8-LS1.6-BI
 
 
 0
@@ -57295,26 +57316,33 @@ SSOP-20_L7.2-W5.3-P0.65-LS7.8-BL
 20
 20
 EasyEDA
-SW-SMD_6P-L5.8-W5.8-P2.00-LS8.3_XKB5858-W-TP
-
-
-0
-6
-6
-EasyEDA
-TSOT-26_L2.9-W1.6-P0.95-LS2.8-BL
-
-
-0
-6
-6
-EasyEDA
-USB-A-TH_USB-M-41
+USB-A-TH_AF-WJDG
 
 
 0
 6
 5
+EasyEDA
+USB-A-TH_USB-231-ARY
+
+
+0
+6
+6
+EasyEDA
+USB-A-TH__USB-AF-90
+
+
+0
+6
+6
+EasyEDA
+USB-B-TH_USB-B10-BRW
+
+
+0
+6
+6
 EasyEDA
 USB-B_TH_USB-B-FEMALE-90
 
@@ -57322,6 +57350,13 @@ USB-B_TH_USB-B-FEMALE-90
 0
 6
 6
+EasyEDA
+WSOIC-16_L10.3-W7.5-P1.27-LS10.3-BL
+
+
+0
+16
+16
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -69866,335 +69901,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PCM_Espressif
-ESP
-
-
-0
-30
-30
-PCM_Espressif
-ESP32-C3-DevKitC-02
-
-
-0
-30
-30
-PCM_Espressif
-ESP32-C3-DevKitM-1
-
-
-0
-30
-30
-PCM_Espressif
-ESP32-C3-MINI-1
-ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
-ESP32-C3
-0
-61
-53
-PCM_Espressif
-ESP32-C3-MINI-1U
-ESP32-C3-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
-ESP32-C3
-0
-61
-53
-PCM_Espressif
-ESP32-C3-MINI-1_HandSoldering
-ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
-ESP32-C3
-0
-61
-53
-PCM_Espressif
-ESP32-C3-WROOM-02
-ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
-ESP32-C3
-0
-27
-19
-PCM_Espressif
-ESP32-C3-WROOM-02U
-ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
-ESP32-C3
-0
-27
-19
-PCM_Espressif
-ESP32-C5-DevKitC-1
-
-
-0
-32
-32
-PCM_Espressif
-ESP32-C6-DevKitC-1
-ESP32-C6 general-purpose development board, based on ESP32-2-WROOM-1,It has all the ESP32-C6 pins exposed and is easy to connect and use.
-ESP32-C6
-0
-32
-32
-PCM_Espressif
-ESP32-C6-DevKitM-1
-ESP32-C6 general-purpose development board, based on ESP32-2-WROOM-1,It has all the ESP32-C6 pins exposed and is easy to connect and use.
-ESP32-C6
-0
-30
-30
-PCM_Espressif
-ESP32-C6-MINI-1
-ESP32-C6-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
-ESP32-C6
-0
-61
-53
-PCM_Espressif
-ESP32-C6-MINI-1U
-ESP32-C6-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
-ESP32-C6
-0
-61
-53
-PCM_Espressif
-ESP32-C6-WROOM-1
-ESP32-C6-WROOM-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf
-esp32-c6
-0
-37
-29
-PCM_Espressif
-ESP32-C6-WROOM-1U
-ESP32-C6-WROOM-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf
-esp32-c6
-0
-37
-29
-PCM_Espressif
-ESP32-DevKitC
-ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
-ESP32
-0
-38
-38
-PCM_Espressif
-ESP32-DevKitM-1
-ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
-ESP32
-0
-34
-34
-PCM_Espressif
-ESP32-H2-MINI-1
-ESP32-H2-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf
-ESP32-H2
-0
-61
-53
-PCM_Espressif
-ESP32-MINI-1
-ESP32-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf
-ESP32-MINI-1
-0
-63
-55
-PCM_Espressif
-ESP32-MINI-1U
-ESP32-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf
-ESP32-MINI-1U
-0
-63
-55
-PCM_Espressif
-ESP32-P4
-
-
-0
-113
-105
-PCM_Espressif
-ESP32-PICO-MINI-02
-ESP32-PICO-MINI-02: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
-ESP32-PICO-MINI-02
-0
-61
-53
-PCM_Espressif
-ESP32-PICO-MINI-02U
-ESP32-PICO-MINI-02U: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
-ESP32-PICO-MINI-02U
-0
-61
-53
-PCM_Espressif
-ESP32-PICO-MINI-02_HandSoldering
-ESP32-PICO-MINI-02: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
-ESP32-PICO-MINI-02
-0
-61
-53
-PCM_Espressif
-ESP32-S2-DevKitC-1
-ESP32-S2 general-purpose development board, based on ESP32-S2-SOLO or ESP32-S2-SOLO-U,It has all the ESP32-S2 pins exposed and is easy to connect and use.
-ESP32-S2
-0
-44
-44
-PCM_Espressif
-ESP32-S2-DevKitM
-ESP32-S2 general-purpose development board
-ESP32-S2
-0
-42
-42
-PCM_Espressif
-ESP32-S2-MINI-1
-ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
-ESP32-S2
-0
-73
-65
-PCM_Espressif
-ESP32-S2-MINI-1U
-ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
-ESP32-S2
-0
-73
-65
-PCM_Espressif
-ESP32-S2-MINI-1_HandSoldering
-ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
-ESP32-S2 Hand Soldering
-0
-73
-65
-PCM_Espressif
-ESP32-S2-SOLO
-ESP32-S2-SOLO https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf
-esp32-s2 module
-0
-49
-41
-PCM_Espressif
-ESP32-S2-SOLO-2U
-ESP32-S2-SOLO-2U https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en.pdf
-esp32-s2 module
-0
-49
-41
-PCM_Espressif
-ESP32-S2-Saola-1
-Espressif ESP32-S2-Saola-1 Development Kit: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html
-esp32-s2 devkit
-0
-42
-42
-PCM_Espressif
-ESP32-S2-WROOM
-ESP32-S2-WROOM and ESP32-S2-WROOM-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
-ESP32-S2
-0
-51
-43
-PCM_Espressif
-ESP32-S2-WROVER
-ESP32-S2-WROVER and ESP32-S2-WROVER-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf
-ESP32-S2
-0
-55
-43
-PCM_Espressif
-ESP32-S3-DevKitC
-ESP32-S3 general-purpose development board, based on ESP32-S3-WROOM-1 or ESP32-S3-WROOM-1U,It has all the ESP32-S3 pins exposed and is easy to connect and use.
-ESP32-S3
-0
-44
-44
-PCM_Espressif
-ESP32-S3-MINI-1
-ESP32-S3-MINI-1
-esp32-s3
-0
-73
-65
-PCM_Espressif
-ESP32-S3-MINI-1U
-ESP32-S3-MINI-1 and ESP32-S3-MINI-1U
-esp32-s3
-0
-73
-65
-PCM_Espressif
-ESP32-S3-WROOM-1
-ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
-esp32-s3
-0
-51
-41
-PCM_Espressif
-ESP32-S3-WROOM-1U
-ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
-esp32-s3
-0
-49
-41
-PCM_Espressif
-ESP32-S3-WROOM-2
-ESP32-S3-WROOM-2 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
-esp32-s3
-0
-51
-41
-PCM_Espressif
-ESP32-WROOM-32E
-ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-ESP32
-0
-50
-39
-PCM_Espressif
-ESP32-WROOM-32UE
-ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-ESP32
-0
-47
-39
-PCM_Espressif
-ESP32-WROOM-DA
-ESP32-WROOM-DA: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-da_datasheet_en.pdf
-ESP32 Dual Antenna DA
-0
-49
-41
-PCM_Espressif
-ESP32-WROVER-E
-ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-esp32 module
-0
-47
-39
-PCM_Espressif
-ESP32-WROVER-E_ThermalVias
-ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-esp32 module thermal vias
-0
-59
-39
-PCM_Espressif
-ESP8685-WROOM-06
-ESP32-WROOM-06: https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-06_datasheet_en.pdf
-esp32 module
-0
-31
-22
-PCM_Espressif
-QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm
-QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8153-8-and-16-bit-avr-microcontroller-xmega-e-atxmega8e5-atxmega16e5-atxmega32e5_datasheet.pdf#page=70), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-37
-33
 PCM_JLCPCB
 ANT-TH_L25.0-W25.0
 ANT-TH_L25.0-W25.0 footprint
@@ -70234,13 +69940,6 @@ PCM_JLCPCB
 CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S
 CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint
 CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint C2981774
-0
-4
-4
-PCM_JLCPCB
-CRYSTAL-SMD_4P-L2.5-W2.0-BL
-CRYSTAL-SMD_4P-L2.5-W2.0-BL footprint
-CRYSTAL-SMD_4P-L2.5-W2.0-BL footprint C2875244
 0
 4
 4
@@ -70294,13 +69993,6 @@ capacitor
 2
 2
 PCM_JLCPCB
-C_1812
-Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-PCM_JLCPCB
 C_CASE-A-3216-18(mm)
 Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
@@ -70322,23 +70014,9 @@ CAP-TH_BD10.0-P5.00-D0.6-FD-A footprint C3015599
 2
 2
 PCM_JLCPCB
-C_Plugin,P=7.5mm
-C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
-C Disc series Radial pin pitch 7.50mm  diameter 7.5mm width 5.0mm Capacitor
-0
-2
-2
-PCM_JLCPCB
 C_Plugin,P=10mm
 C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
 C Disc series Radial pin pitch 10.00mm  diameter 11mm width 5.0mm Capacitor
-0
-2
-2
-PCM_JLCPCB
-C_Plugin,P=15mm
-CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint
-CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint C2991080
 0
 2
 2
@@ -70395,13 +70073,6 @@ PCM_JLCPCB
 D_0805
 LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 LED
-0
-2
-2
-PCM_JLCPCB
-D_DFN0603-2
-DFN0603-2L-BI footprint
-DFN0603-2L-BI footprint C2936988
 0
 2
 2
@@ -70546,41 +70217,6 @@ FC-135R_L3.2-W1.5 footprint C32346
 2
 2
 PCM_JLCPCB
-FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P
-FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P footprint
-FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P footprint C2962896
-0
-4
-4
-PCM_JLCPCB
-FILTER-SMD_4P-L12.0-W10.8-TL
-FILTER-SMD_4P-L12.0-W10.8-TL footprint
-FILTER-SMD_4P-L12.0-W10.8-TL footprint C2839965
-0
-4
-4
-PCM_JLCPCB
-F_0603
-Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-fuse
-0
-2
-2
-PCM_JLCPCB
-HC-49S_L7.0-W4.0
-HC-49S_L7.0-W4.0 footprint
-HC-49S_L7.0-W4.0 footprint C2975359
-0
-2
-2
-PCM_JLCPCB
-HDR-TH_8P-P2.54-V-M
-HDR-TH_8P-P2.54-V-M footprint
-HDR-TH_8P-P2.54-V-M footprint C2829996
-0
-8
-8
-PCM_JLCPCB
 Hole, 3mm
 
 
@@ -70658,13 +70294,6 @@ inductor
 2
 2
 PCM_JLCPCB
-L_1008
-Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-PCM_JLCPCB
 L_1206
 Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 inductor
@@ -70675,13 +70304,6 @@ PCM_JLCPCB
 L_SMD,4.5x4.1mm
 IND-SMD_L4.5-W4.1_TMPA0402SP footprint
 IND-SMD_L4.5-W4.1_TMPA0402SP footprint C2875615
-0
-2
-2
-PCM_JLCPCB
-L_SMD,4.5x4x3.2mm
-IND-SMD_L4.5-W4.0_CD43 footprint
-IND-SMD_L4.5-W4.0_CD43 footprint C2880035
 0
 2
 2
@@ -70742,13 +70364,6 @@ MouseBites, Mechanical, JLCPCB, 1.6mm
 0
 0
 PCM_JLCPCB
-OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL
-OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL footprint
-OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL footprint C106900
-0
-4
-4
-PCM_JLCPCB
 OSC-SMD_4P-L3.2-W2.5-BL
 OSC-SMD_4P-L3.2-W2.5-BL footprint
 OSC-SMD_4P-L3.2-W2.5-BL footprint C9006
@@ -70762,13 +70377,6 @@ OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
 0
 4
 4
-PCM_JLCPCB
-PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1
-PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1 footprint
-PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1 footprint C2987356
-0
-8
-8
 PCM_JLCPCB
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint
@@ -70847,30 +70455,9 @@ SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint C7420322
 3
 3
 PCM_JLCPCB
-RV_1210
-R1210 footprint
-R1210 footprint C2935551
-0
-2
-2
-PCM_JLCPCB
 RV_Plugin,P=5mm
 RES-TH_L8.0-W5.4-P5.00-D0.6 footprint
 RES-TH_L8.0-W5.4-P5.00-D0.6 footprint C2919238
-0
-2
-2
-PCM_JLCPCB
-RV_Plugin,P=7.5mm
-RES-TH_L15.0-W6.4-P7.50-D0.8 footprint
-RES-TH_L15.0-W6.4-P7.50-D0.8 footprint C2919311
-0
-2
-2
-PCM_JLCPCB
-RV_Plugin,P=8mm
-RES-TH_L15.0-W6.6-P8.00-D0.8 footprint
-RES-TH_L15.0-W6.6-P8.00-D0.8 footprint C2919344
 0
 2
 2
@@ -70931,13 +70518,6 @@ resistor
 2
 2
 PCM_JLCPCB
-SMD-8_L9.8-W6.6-P2.54-LS10.3-BL
-SMD-8_L9.8-W6.6-P2.54-LS10.3-BL footprint
-SMD-8_L9.8-W6.6-P2.54-LS10.3-BL footprint C110020
-0
-8
-8
-PCM_JLCPCB
 SOIC-8_3.9x4.9mm_P1.27mm
 SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
@@ -70993,13 +70573,6 @@ SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
 0
 20
 20
-PCM_JLCPCB
-SOP-4_L4.4-W2.8-P1.27-LS7.0-TL
-SOP-4_L4.4-W2.8-P1.27-LS7.0-TL footprint
-SOP-4_L4.4-W2.8-P1.27-LS7.0-TL footprint C145341
-0
-4
-4
 PCM_JLCPCB
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint
@@ -71172,13 +70745,6 @@ PCM_JLCPCB
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
-0
-4
-4
-PCM_JLCPCB
-SW-SMD_218-2LPSTRF
-SW-SMD_218-2LPSTRF footprint
-SW-SMD_218-2LPSTRF footprint C2961921
 0
 4
 4
@@ -92659,82 +92225,12 @@ rotary encoder illuminated switch vertical
 9
 8
 SamacSys_Parts
-3314J-1
-3314J-1
-Resistor
-0
-3
-3
-SamacSys_Parts
-1712805
-1712805
+902131A1011D10100
+902-131A1011D10100-2
 Connector
-0
-4
-4
-SamacSys_Parts
-1717729
-1717729-5
-Connector
-0
-2
-2
-SamacSys_Parts
-1727023
-1727023-4
-Connector
-0
-3
-3
-SamacSys_Parts
-AP63203WU7
-AP63203WU-7-5
-Integrated Circuit
 0
 6
 6
-SamacSys_Parts
-CAPC3216X180N
-CL31 (1206)
-Capacitor
-0
-2
-2
-SamacSys_Parts
-DIONM5436X244N
-SMB (DO-214AA)_2023
-Schottky Diode
-0
-2
-2
-SamacSys_Parts
-DIP794W53P254L959H508Q8N
-P (R-PDIP-T8)
-Integrated Circuit
-0
-8
-8
-SamacSys_Parts
-ESP32S3WROOM1N16
-41-SMD_2025
-Integrated Circuit
-0
-49
-49
-SamacSys_Parts
-INDM2520X190N
-NLV25T_2021
-Inductor
-0
-2
-2
-SamacSys_Parts
-LEDC1608X70N
-0603
-LED
-0
-2
-2
 SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
@@ -92742,104 +92238,6 @@ Integrated Circuit
 0
 8
 8
-SamacSys_Parts
-RESC2012X65N
-WR08
-Resistor
-0
-2
-2
-SamacSys_Parts
-RL622102KRC
-RL622-102K-RC-1
-Inductor
-0
-2
-2
-SamacSys_Parts
-RLB1014104KL
-RLB1014-104KL-1
-Inductor
-0
-2
-2
-SamacSys_Parts
-SHDR2W105P0X500_1X2_1000X900X1260P
-WJ300V-5.0-2P
-Connector
-0
-2
-2
-SamacSys_Parts
-SHDR2W160P0X500_1X2_1020X520X1070P
-XT30UPB-M
-Connector
-0
-2
-2
-SamacSys_Parts
-SOD3718X108N
-SMF3.3
-TVS Diode (Uni-directional)
-0
-2
-2
-SamacSys_Parts
-SODFL1006X40N
-SOD-923 CASE 514AB
-Diode
-0
-2
-2
-SamacSys_Parts
-SOP65P490X111-8N
-8 µMAX
-Integrated Circuit
-0
-8
-8
-SamacSys_Parts
-SOP65P780X200-20N
-RS-20_2023__
-Integrated Circuit
-0
-20
-20
-SamacSys_Parts
-SOT95P240X115-3N
-sot-23
-TVS Diode (Bi-directional)
-0
-3
-3
-SamacSys_Parts
-SOT95P251X112-3N
-SOT-23-ren10
-MOSFET (N-Channel)
-0
-3
-3
-SamacSys_Parts
-SOT95P280X145-6N
-SOT23-6L_1
-Integrated Circuit
-0
-6
-6
-SamacSys_Parts
-SSSS223200
-SSSS223200-2
-Switch
-0
-6
-6
-SamacSys_Parts
-XKB5858WTP
-XKB5858-W-TP-2
-Switch
-0
-6
-6
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
