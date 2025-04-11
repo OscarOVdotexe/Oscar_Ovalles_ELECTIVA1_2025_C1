@@ -220,6 +220,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 3.0,
+          "drill": 2.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -505,7 +509,7 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vrml": ""
+      "vrml": "TAREA_2.wrl"
     },
     "page_layout_descr_file": ""
   },
